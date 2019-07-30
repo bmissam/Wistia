@@ -1,0 +1,673 @@
+header {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    font-family: Walsheim;
+}
+
+h2 {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    position: relative;
+    background-color: #C896A5;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    Font-family: Walsheim;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 21px;
+}
+
+.drop {
+    border: 1px solid #EFEFEF;
+    position: absolute;
+    height: fit-content;
+    display: none;
+    Font-family: Walsheim;
+}
+
+.li-list:hover .drop {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1;
+    margin: 20px;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    left: 0;
+}
+
+.menu:hover .title {
+    color: black;
+}
+
+.menu:hover {
+    background-color: white;
+}
+
+.li-list:hover .one {
+    color: #53BBFF;
+}
+
+.li-list:hover .two {
+    color: #FFAB9D;
+}
+
+.li-list:hover .three {
+    color: #3AB16A;
+}
+
+.li-list:hover .four {
+    color: #2E62CA;
+}
+
+.menu:hover .logo-menu {
+    color: #3EA9F5;
+}
+
+.li-list {
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    Font-size: 15px;
+    Font-weight: bold;
+    Line-height: 21px;
+    margin-bottom: 0;
+    height: 70px;
+}
+
+.soapbox {
+    padding-top: 20px;
+}
+
+.police {
+    font-family: Walsheim;
+    Font-size: 15px;
+    Font-weight: bold;
+    Line-height: 18px;
+    color: rgb(42, 45, 53)
+}
+
+.sub {
+    font-family: Walsheim;
+    Font-size: 11px;
+    Font-weight: 600;
+    Line-height: 13.2px;
+    color: rgb(91, 107, 127)
+}
+
+.logo-menu {
+    padding-left: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.wes-logo {
+    padding: 0 10px;
+    color: #3EA9F5;
+    font-size: 40px;
+}
+
+.main-button {
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 35px
+}
+
+.section {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    position: relative;
+}
+
+.section1 {
+    display: flex;
+    position: relative;
+    height: 180px;
+}
+
+.ly {
+    position: absolute;
+    left: 0;
+    padding-left: 0;
+}
+
+.all-li {
+    padding-bottom: 15px;
+    width: 160px;
+    font-family: Walsheim;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 18px;
+    color: rgb(42, 45, 53)
+}
+
+.all-li:hover {
+    font-weight: bold;
+}
+
+.m1 {
+    position: relative;
+    margin-left: 85px;
+}
+
+.paragraphe {
+    display: flex;
+}
+
+.ligne {
+    width: 300px;
+    padding-right: 50px;
+}
+
+.taille2 {
+    height: 240px;
+}
+
+.taille1 {
+    height: 160px;
+}
+
+.taille3 {
+    height: 300px;
+}
+
+.Learn {
+    font-family: Walsheim;
+    Font-size: 23px;
+    Font-weight: 700;
+    Line-height: 27.6px;
+    color: rgb(58, 177, 106)
+}
+
+.purple {
+    background: #C896A5;
+    display: flex;
+    height: 620px;
+    position: relative;
+    color: rgb(54, 57, 69);
+    font-weight: bold;
+    font-size: 41.6px;
+    Line-height: 49.92px;
+    margin-left: 25px;
+    margin: 0;
+}
+
+.vid {
+    width: 652px;
+    height: 542px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    margin-left: 95px;
+}
+
+.boutton {
+    background-color: white;
+    color: rgb(156, 168, 183);
+    width: 210px;
+    height: 70px;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 0 15px;
+    position: relative;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.boutton:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px grey;
+}
+
+.button1 {
+    display: inline-flex;
+    justify-content: center;
+    padding-right: 50px;
+    font-size: 20px;
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #EFEFEF;
+    position: relative;
+}
+
+.bt1 {
+    width: 50px;
+    height: 100px;
+    font-family: Walsheim;
+    Font-size: 14px;
+    Font-weight: bold;
+    Line-height: 16.8px;
+    color: rgb(54, 57, 69);
+    z-index: 2;
+    position: absolute;
+    top: 12px;
+}
+
+.button1:hover {
+    box-shadow: 10px 5px 5px #EFEFEF;
+    transform: scale(1.05)
+}
+
+.button2 {
+    justify-content: center;
+    padding-right: 30px;
+    font-size: 20px;
+    width: 75px;
+    height: 42px;
+    background-color: #3EA9F5;
+    border-radius: 8px;
+    margin-left: 15px;
+    display: inline-flex;
+    font-weight: 500;
+    position: relative;
+    white-space: nowrap;
+}
+
+.bt2 {
+    font-family: Walsheim;
+    Font-size: 14px;
+    Font-weight: bold;
+    Line-height: 16.8px;
+    color: white;
+    width: 80px;
+    text-decoration: none;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+.button2:hover {
+    box-shadow: 0px 5px #3EA9F5;
+    transform: scale(1.05)
+}
+
+.account {
+    display: inline-flex;
+    border: 1px solid transparent;
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    background-color: #3EA9F5;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+}
+
+.account-soap {
+    display: inline-flex;
+    justify-content: center;
+    width: 150px;
+    border: 1px solid transparent;
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    background-color: #F49283;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+}
+
+.account-learningcenter {
+    display: inline-flex;
+    justify-content: center;
+    width: 150px;
+    border: 1px solid transparent;
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    background-color: #3AB16A;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+}
+
+.account:hover {
+    box-shadow: 0px 5px #3EA9F5;
+    transform: scale(1.05)
+}
+
+.account-soap:hover {
+    box-shadow: 0px 5px #F49283;
+    transform: scale(1.05)
+}
+
+.account-learningcenter:hover {
+    box-shadow: 0px 5px #3AB16A;
+    transform: scale(1.05)
+}
+
+.yellow {
+    background-color: #FED24A;
+}
+
+.green {
+    background-color: #51C29F;
+}
+
+.blue {
+    background-color: #3EA9F5;
+    position: relative;
+}
+
+.grid {
+    display: flex;
+}
+
+.sponsor {
+    display: flex;
+    margin-top: 127px;
+    margin-left: 50px;
+    Font-size: 17px;
+    Font-weight: bold;
+    Line-height: 20.4px;
+    color: rgb(156, 168, 183);
+}
+
+.images {
+    display: flex;
+    width: 120px;
+    max-width: 170px;
+    height: 120px;
+    margin: 0 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bord {
+    display: flex;
+    width: 450px;
+    height: 420px;
+    flex-direction: column;
+    padding: 50px 60px;
+}
+
+.bord>p {
+    font-size: 20px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: rgb(42, 45, 53);
+}
+
+.bourse {
+    font-size: 50px;
+    color: #0080FF;
+}
+
+.PC {
+    font-size: 50px;
+    color: #E7B8C7;
+}
+
+.book {
+    font-size: 50px;
+    color: #FED24A;
+}
+
+.final {
+    display: flex;
+    margin-top: 218px;
+    justify-content: space-around;
+    margin-left: 60px;
+    align-content: center;
+}
+
+.channel {
+    padding-left: 80px;
+}
+
+.tube {
+    padding-left: 80px;
+}
+
+.feet {
+    display: flex;
+    margin: 100px 0 0 0;
+    background-color: #EFEFEF;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.btn:hover {
+    background-color: #EFEFEF;
+    box-shadow: 0 5px;
+    transform: scale(1.05)
+}
+
+.btn {
+    display: flex;
+    margin-top: 50px;
+    width: 180px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid ghostwhite;
+    border-radius: 5px;
+    color: #2A2D35;
+    Font-size: 18px;
+    Font-weight: bold;
+    Line-height: 21.6px;
+}
+
+.start {
+    color: #363945;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.last {
+    position: absolute;
+    bottom: 60px;
+}
+
+.subs-but {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2A2D35;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 90px;
+}
+
+.f-menu {
+    display: flex;
+    height: 205px;
+    margin-right: 20px;
+    margin-left: 80x;
+    padding-left: 60px;
+}
+
+.marge {
+    font-size: 15px;
+    Font-weight: 500;
+    Line-height: 18px;
+    color: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    width: 150px;
+}
+
+.marge>p {
+    Font-size: 11px;
+    Font-weight: 800;
+    Line-height: 14.3px;
+    color: rgb(156, 168, 183);
+}
+
+.liste {
+    padding-left: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.m-p {
+    color: #9A9B9F
+}
+
+.m-link {
+    color: #3769CC
+}
+
+.social {
+    color: #379E62;
+    font-family: Walsheim;
+    Font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.foot-menu {
+    padding: 5px;
+}
+
+.install {
+    color: #FA9585
+}
+
+.create {
+    color: #3DA4ED;
+}
+
+.install:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.a:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: #D7D7D9;
+}
+
+.foot-link:hover {
+    font-weight: bold;
+}
+
+.vs {
+    display: inline-flex;
+    border: 1px solid #F9F9F9;
+    margin: 40px;
+    border-radius: 5px;
+    font-family: Walsheim;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 19.6px;
+    color: rgb(91, 107, 127);
+}
+
+.video-serie {
+    width: 520px;
+    padding-top: 20px;
+}
+
+.vs-gauchetitle {
+    font-weight: bold;
+}
+
+.vs-droitetitle {
+    font-weight: bold;
+}
+
+.par1 {
+    margin-left: 20px;
+}
+
+.videos-title {
+    color: #1C55C5;
+}
+
+.v-text {
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 21px;
+    color: rgb(91, 107, 127);
+}
+
+.images-lien {
+    text-decoration: none;
+}
+
+.images-lien:hover {
+    text-decoration-line: underline;
+}
+
+.mainselection {
+    text-decoration: none;
+    color: white;
+}
+
+.wes-effect:hover {
+    color: #3DA4ED;
+}
+
+.soap-effect:hover {
+    color: #FA9585
+}
+
+.center-effect:hover {
+    color: #3AB16A
+}
